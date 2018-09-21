@@ -1,40 +1,44 @@
-!--My Basic Portfolio Website-->
+<!--My Basic Portfolio Website-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Index</title>
-
+    <title>My Portfolio</title>
     <!--link sytlesheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 
 <body>
-    <header>
-        <h1>Michael Pohlman</h1>
-    </header>
-        
-    <div class "container">
+    <div class="header-container">
+        <header>Michael Pohlman</header>
 
-        <section id="portfolio">
+        <nav>
+            <ul>
+                <li class="border"><a href="index.html">About</a></li>
+                <li class="border"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-container">
+        <section id="main-bio">
+            <h2>About Me</h2>
 
-            <img id="profile-image" scr="my-picture">
+            <img id="bio-image" src="assets/images/placeholder1.jpg" alt="personalpic">
 
-            <p> paragraph about myself </p>
-
+            <p>
+                paragraph about myself
+            </p>
         </section>
 
     </div>
-        
-            
 
-        </div>
-        <h2>About Me</h2>
-
-        <p></p>
-    </body>
-
+    <footer>
+        &#8; Copyright Michael Pohlman
+    </footer>
+</body>
 
 </html>
