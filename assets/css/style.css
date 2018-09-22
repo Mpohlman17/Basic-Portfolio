@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+/* font size wont adjust accordenly and having trouble getting the color to work*/
 h1 {
     font-size: 25px;
     color: #4aaaa5;
@@ -10,7 +11,7 @@ h1 {
     padding-bottom: 20px;
     
 }
-
+/*having an issue with the wrap around the picture*/
 body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -18,7 +19,7 @@ body {
     text-align: left;
     width: 960px;
 }
-
+/*issue with font size and border*/
 header {
     background-color: #4aaaa5;
     color: #ffffff;
