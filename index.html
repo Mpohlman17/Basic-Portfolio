@@ -7,52 +7,55 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <!--link sytlesheet-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 
-<body>
-    <div class="header-container">
-        <header>Michael Pohlman</header>
+<header id="masthead">
+    <div class="container">
+        <a href="index.html" id="logo">Michael Pohlman</a>
         <nav>
-            <a class="index"><a href="index.html">About</a>
-                <a class="portfolio"><a href="portfolio.html">Portfolio</a>
-                    <a class="contact"><a href="contact.html">Contact</a>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </div>
-    <div class="main-container">
-        <section id="main-bio">
-            <h1>About Me</h1> 
-            <img src="assets/images/placeholder1.jpg" alt="bio-image" height="150px" width="200px">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, culpa ipsa minima vitae
-                dolorum aut?
-                Iusto sunt quo voluptates eum distinctio, placeat numquam aliquid laboriosam sed temporibus
-                quae
-                dolorem corporis.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vel obcaecati quo ullam
-                facilis
-                voluptate
-                aliquid amet, quae sequi odit cumque accusantium totam repellendus mollitia iusto
-                laboriosam
-                praesentium minus rem?
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita deleniti iste
-                recusandae
-                voluptates exercitationem debitis. Facere animi officiis nulla voluptatibus eaque!
-                Accusamus
-                autem,
-                suscipit provident enim minus perspiciatis facere?
-                <br>
-            </p>
+</header>
+<div class="wrapper">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+
+            <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus
+                nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel
+                dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo
+                purus vitae sollicitudin consectetur.</p>
+
+            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc
+                id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
+                et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
         </section>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
 
+                <img src="assets/images/octobiwan.jpg" class="social" alt="Github">
+                <img src="assets/images/Linkedin.png" class="social" alt="LinkedIn">
+                <img src="assets/images/stackoverflow.jpg" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+        <div class="push"></div>
     </div>
+</div>
 
 
 
-    <footer>&#8;Copyright Michael Pohlman</footer>
+<footer>&#8;Copyright Michael Pohlman</footer>
 
 </body>
 
