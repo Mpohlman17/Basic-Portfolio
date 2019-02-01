@@ -29,7 +29,8 @@ body {
 
 footer,
 .push {
-  height: 50px;
+  margin: 25px;
+  height: 25px;
 }
 
 /* end sticky footer styling */
@@ -209,9 +210,8 @@ h3,
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 270px;
   margin: 20px 0 25px;
-  overflow: auto;
 }
 
 .work:nth-child(even) {
@@ -235,7 +235,7 @@ h3,
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-  border-bottom: 0;
+  border-bottom: 1px;
 }
 
 .auth-image {
